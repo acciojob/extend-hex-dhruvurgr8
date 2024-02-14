@@ -1,6 +1,6 @@
 const extendHex = (shortHex) => {
 
- shortHex = shortHex.replace("#","").toUpperCase();
+ shortHex = shortHex.replace("#","");
 	const red = shortHex[0];
 	const green = shortHex[1];
 	const blue = shortHex[2]
